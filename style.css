@@ -1,25 +1,32 @@
 body {
-    background-color: #00449c;
-    font-family: "Itim", cursive;
-  }
-  
-  tr {
-    font-size: 25px;
-    font-weight: normal;
-    text-align: center;
-    color:aliceblue;
-  }
+  background-color: #00449c;
+  font-family: "Itim", cursive;
+  color: white;
+}
 
-  p {
-    font-size: 30px;
-    font-weight: normal;
-    text-align: center;
-  }
-  
-  li {
-    font-size: 25px;
-    font-weight: normal;
-    text-align: center;
-  }
-  
-  
+h1, h3, label, th, td, .btn, .form-control::placeholder {
+  color: white;
+}
+
+.table, .table-bordered, .table-striped th, .table-striped td, .form-control {
+  border-color: white;
+}
+
+
+tr {
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+}
+
+p {
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+}
+
+li {
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+}
